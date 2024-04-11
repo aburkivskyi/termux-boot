@@ -1,7 +1,6 @@
 name: Attach Debug APK To Release
 
 on:
-  workflow_dispatch:
   release:
     types:
       - published
